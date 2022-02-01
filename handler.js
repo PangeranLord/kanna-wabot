@@ -747,7 +747,7 @@ module.exports = {
       case 'demote':
         if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
         text = text.replace('@user', '@' + participants[0].split('@')[0])
-        let banp = fs.readFileSync('./src/kanna.jpg')
+        let banp = fs.readFileSync('./src/IMG-20220131-WA0097.jpg')
         if (chat.detect) this.send2ButtonLoc(jid, banp, text, '🎮 Ƙαnnα вσт', 'MENU', '#menu', 'OWNER', '#owner', null, {
           contextInfo: {
             mentionedJid: this.parseMention(text)
@@ -815,7 +815,7 @@ Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
 📍 Ketik : #daftar nama.umur
 ▸ Contoh : #daftar ${user}.13`
   }[type]
-  let pd = fs.readFileSync('./src/kanna.jpg')
+  let pd = fs.readFileSync('./src/IMG-20220131-WA0097.jpg')
   if (msg) return m.reply(msg)
 }
 

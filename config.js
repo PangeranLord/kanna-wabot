@@ -51,8 +51,8 @@ function pickRandom(list) {
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
 global.linkGC = ['https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT'] // ganti jadi group lu
-global.owner = ['62831433937633','6283845403062','6288217277973','62831433937630','6285704954639', '62895336282144', '6285712420674'] // Put your number here
-global.mods = [] // Want some help?
+global.owner = ['62831433937633','6287832147584','6287832147584','6287832147584'] // Put your number here
+global.mods = ['6287832147584'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -92,7 +92,7 @@ global.packname = '🌙 Ƙαnnα вσт\nwa.me/6283143393763\n\n\n𝙱𝚢 𝙻�
 global.author = '۰ ⸼'
 
 // silakan di ganti klo mau
-global.botwm = `🎮 Ƙαnnα вσт`//UBAH JADI NAMAMU
+global.botwm = `🎮 Pangeran вσт`//UBAH JADI NAMAMU
 global.botdate = `╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────`
 global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
 global.logo = fs.readFileSync('./src/logo3.jpg')

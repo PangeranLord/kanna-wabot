@@ -430,11 +430,11 @@ module.exports = {
           descUpdate: true,
           delete: false,
           rpg: true,
-          nsfw: true,
+          nsfw: false,
           antiBadword: true,
           antiLink: false,
           viewonce: true,
-          simi: false,
+          simi: true,
         }
         
                 let settings = global.db.data.settings[this.user.jid]
@@ -458,8 +458,8 @@ module.exports = {
           backup: true,
           backupDB: 0,
           groupOnly: false,
-          jadibot: false,
-          nsfw: true,
+          jadibot: true,
+          nsfw: false,
           onsfw: true,
           status: 0,
         }
@@ -767,7 +767,7 @@ module.exports = {
 *◇ Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
 
 klick untuk mematikannya atau ketik #disable delete
-`.trim(), '🎮 Ƙαnnα вσт', 'DISABLE DELETE', '.disable delete', {
+`.trim(), '🎮 Pangeran вσт', 'DISABLE DELETE', '.disable delete', {
       quoted: m.message,
       contextInfo: {
         mentionedJid: [m.participant]

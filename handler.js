@@ -396,7 +396,7 @@ module.exports = {
             name: this.getName(m.sender),
             age: -1,
             regTime: -1,
-            autolevelup: true,
+            autolevelup: false,
             lastIstigfar: 0,
         }
 
@@ -446,7 +446,7 @@ module.exports = {
           if (!'antitroli' in settings) settings.antitroli = true
           if (!'backup' in settings) settings.backup = true
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
-          if (!'groupOnly' in settings) settings.groupOnly = false
+          if (!'groupOnly' in settings) settings.groupOnly = true
           if (!'jadibot' in settings) settings.groupOnly = false
           if (!'nsfw' in settings) settings.nsfw = true
           if (!isNumber(settings.status)) settings.status = 0
@@ -457,7 +457,7 @@ module.exports = {
           antitroli: false,
           backup: true,
           backupDB: 0,
-          groupOnly: false,
+          groupOnly: true,
           jadibot: true,
           nsfw: false,
           onsfw: true,
